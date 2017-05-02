@@ -1,3 +1,82 @@
 body {
-  background: silver;
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #808080, #000000);
+  background: linear-gradient(to left, #808080, #000000);
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #e6c300;
+  cursor: cell;
+}
+
+.sidebar li {
+  list-style-type: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 36px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid #e6c300;
+  width: 23%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.container {
+  position: absolute;
+  left: 300px;
+  width: 310%;
+  padding: 20px;
+  display: inline-block;
+  height: 1000px;
+}
+
+.container h1 {
+  color: #e6c300;
+}
+
+.container h2 {
+  padding-top: 15px;
+  border-top: 3px solid #e6c300;
+  color: #e6c300;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  float: left;
+  width: 450px;
+  height: 275px;
+  border-radius: 10px;
+}
+
+.faq {
+  display: flex;
+  padding-left: 20px;
+}
+
+p{
+  text-indent: 50px;
+}
+
+.resources {
+  width: 50px;
+  height: 50px;
+}
+
+.relevant-links{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:flex-start;
 }
