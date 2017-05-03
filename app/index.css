@@ -12,7 +12,6 @@ body {
 a {
   text-decoration: none;
   color: #e6c300;
-  cursor: cell;
 }
 
 .sidebar li {
@@ -45,18 +44,19 @@ a {
   color: #e6c300;
 }
 
-.container h2 {
+.container h3 {
   padding-top: 15px;
   border-top: 3px solid #e6c300;
   color: #e6c300;
   display: flex;
   justify-content: center;
+  padding-top: 150px;
 }
 
 .avatar {
   float: left;
   width: 450px;
-  height: 275px;
+  height: 260px;
   border-radius: 10px;
 }
 
@@ -72,11 +72,18 @@ p{
 .resources {
   width: 50px;
   height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .relevant-links{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  align-items:flex-start;
+  justify-content:center;
+  align-items:flex-end;
+  height: 50px;
+}
+
+.youtube {
+  visibility: hidden;
 }
