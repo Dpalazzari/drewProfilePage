@@ -17,14 +17,15 @@ function Sidebar () {
       </li>
       <li>
         <NavLink activeClassName='active' to='/futurePlans'>
-          Future Plans
+          Future
         </NavLink>
       </li>
       <li>
-        <iframe  className='youtube'  src="https://www.youtube.com/embed/sCxv2daOwjQ?autoplay=1" ></iframe>
       </li>
     </ul>
   )
 }
 
 module.exports = Sidebar;
+
+// <iframe  className='youtube'  src="https://www.youtube.com/embed/sCxv2daOwjQ?autoplay=1" ></iframe>
