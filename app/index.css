@@ -1,17 +1,21 @@
-body {
-  background: #000000;
-  background: -webkit-linear-gradient(to left, #808080, #000000);
-  background: linear-gradient(to left, #808080, #000000);
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-}
-
 .active {
   font-weight: bold;
+  text-decoration: none;
 }
 
 a {
   text-decoration: none;
-  color: #e6c300;
+  color: #333399;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333399;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #333399;
 }
 
 .sidebar li {
@@ -24,33 +28,23 @@ a {
 .sidebar {
   display: flex;
   flex-direction: column;
-  border-right: 3px solid #e6c300;
+  border-right: 3px solid #333399;
   width: 23%;
   position: fixed;
   top: 0;
   bottom: 0;
+  font-family: courier;
 }
 
-.container {
+.intro {
   position: absolute;
-  left: 300px;
+  left: 100%;
   width: 310%;
-  padding: 20px;
-  display: inline-block;
-  height: 1000px;
+  font-family: courier;
 }
 
 .container h1 {
-  color: #e6c300;
-}
-
-.container h3 {
-  padding-top: 15px;
-  border-top: 3px solid #e6c300;
-  color: #e6c300;
-  display: flex;
-  justify-content: center;
-  padding-top: 150px;
+  color: #333399;
 }
 
 .avatar {
@@ -63,6 +57,7 @@ a {
 .faq {
   display: flex;
   padding-left: 20px;
+  font-family: courier;
 }
 
 p{
@@ -70,18 +65,20 @@ p{
 }
 
 .resources {
-  width: 50px;
-  height: 50px;
-  padding-left: 15px;
+  width: 40%;
+  height: 40%;
+  margin-top: 15px;
+  margin-left: 15px;
   padding-right: 15px;
 }
 
 .relevant-links{
+  padding-top: 15px;
+  border-top: 3px solid #333399;
+  color: #333399;
   display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items:flex-end;
-  height: 50px;
+  justify-content: center;
+
 }
 
 .youtube {
